@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*REGRA caso haja problemas com acentuação*/
+
+body {
+    background-color: lightgoldenrodyellow;
+    color: rgb(168, 100, 52);
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(229, 19, 19);
+    background-color: aquamarine;
+}
+
+p {
+    text-align: justify;
+}

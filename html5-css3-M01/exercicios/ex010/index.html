@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+</head>
+
+<body>
+    <h1>Aprendendo a usar links &#x1F517;</h1>
+    <hr>
+    <h2>Usando <abbr title="hipertexto">links</abbr> externos:</h2>
+    <p>Você pode acessar o meu <a href="https://github.com/kellykilmadesousa" target="_blank" rel="external"
+            hreflang="pt">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o <a href="https://www.linkedin.com/in/kellykilma/" target="_blank" rel="external"
+            hreflang="pt">meu perfil do Linkedin</a></p>
+    <!--hreflag é para sinaliar o idioma do site ajudando o navegador e softwares a ativar tradução quando disponível-->
+    <h2>Usando Links internos:</h2>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next"
+            target="_self">segunda página</a></p>
+    <!--_self serve para registrar a continuidade na msm página do site ao invés de abrir outra aba; rel next registra o "proximo" caminho-->
+    <p>Você também pode acessar a nossa <a href="./noticias/pag003.html" rel="next" target="_self">página de
+            notícias</a></p>
+    <h2>Links para download:</h2>
+    <ul>
+        <li><a href="livro/meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>  <!--qdo adicionei download="meulivro.pdf" abriu uma aba com o arquivo mas não baixou; com o type acontece a mesma coisa-->
+        <li><a href="livro/meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li> <!--funcionou-->
+    </ul>
+</body>
+
+</html>

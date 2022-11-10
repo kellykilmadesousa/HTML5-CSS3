@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1em Arial, Helvetica, sans-serif;
+    background-color: #fdf8f8;
+}
+
+h1{
+    color: #c566cb ;
+}
+
+h1#titulo-principal{
+    background-color: #127369;
+    text-align: center;
+    color: azure;
+}
+
+h2{
+    color: #b9cfcc;
+}
+
+.p{
+    text-align: justify;
+}
+
+.topico{
+    background-color: #383f3f;
+}
